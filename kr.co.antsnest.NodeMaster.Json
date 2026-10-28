@@ -1,12 +1,12 @@
 {
   "id": "kr.co.antsnest.NodeMaster",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "25.08",
+  "runtime-version": "0.10",
   "sdk": "org.freedesktop.Sdk",
-  "command": "hello",
+  "command": "nodemaster",
   "modules": [
     {
-      "name": "hello",
+      "name": "nodemaster",
       "buildsystem": "simple",
       "build-commands": [
         "install -Dm755 hello.sh /app/bin/hello"
@@ -16,7 +16,7 @@
           "type": "script",
           "dest-filename": "hello.sh",
           "commands": [
-            "echo '안녕하세요. 로컬 학습용 앱입니다.'"
+            "echo 'AI Agent Reg Mcp Tool.'"
           ]
         }
       ]
