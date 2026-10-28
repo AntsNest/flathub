@@ -1,7 +1,7 @@
 {
   "id": "kr.co.antsnest.NodeMaster",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "0.10",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "nodemaster",
   "modules": [
